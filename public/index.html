@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Foto Maken AI</title>
+
+    <link
+      rel="stylesheet"
+      href="./css/Spinner.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
+  </head>
+  <body>
+    <header><h1>Beschrijf een foto</h1></header>
+    <main>
+      <section class="showcase">
+        <form id="image-form">
+          <div class="form-input">
+            <small>Type alleen in het Engels</small>
+            <input
+              type="text"
+              id="prompt"
+              placeholder="Type een zin of word ..."
+              required
+              title="Dit veld is verplicht"
+            />
+          </div>
+          <div class="form-input">
+            <small>Selecteer gewenst formaat</small> <br />
+            <select
+              name="size"
+              id="size"
+            >
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+          </div>
+          <button
+            id="btn"
+            type="submit"
+          >
+            Genereren
+          </button>
+        </form>
+      </section>
+      <section id="image">
+        <div class="image-container">
+          <h2 id="msg"></h2>
+          <h1 id="bericht"></h1>
+          <img
+            src=""
+            alt=""
+            id="img"
+          />
+        </div>
+      </section>
+    </main>
+
+    <article>
+      <h2 class='voorbeeld'>Voorbeeld:</h2>
+      <div>
+        a close up, studio photographic portrait of a white siamese cat that
+        looks curious, backlit ears
+      </div>
+      <div>a white siamese cat</div>
+      <div>a dog on moon</div>
+    </article>
+
+    <footer>
+      <p>Alle rechten voorbehouden door &copy;HooNL</p>
+    </footer>
+
+    <div class="spin"></div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #0b4636;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+header,
+footer {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: rgb(12, 45, 16);
+  color: #e3fcba;
+  border-radius: 1rem;
+}
+
+main {
+  /* width: 420px;
+  max-width: 540px; */
+  margin-inline: auto;
+  border: 1px solid rgb(137, 137, 146);
+  border-radius: 1rem;
+  text-align: center;
+  height: auto;
+  background-color: #4a976ee0;
+  margin-top: .3rem;
+}
+
+form {
+  padding: 1rem;
+}
+
+input {
+  margin: 0.2rem 0 1rem 0;
+  padding: 0.5rem 0.3rem;
+  border: none;
+  border-radius: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+select {
+  margin: 0 0 2rem 0;
+  padding: 0.5rem 1rem;
+  width: 50%;
+  border-radius: 1rem;
+  border: none;
+}
+
+option {
+  color: #fff;
+  background-color: rgb(71, 71, 81);
+}
+
+button {
+  padding: 0.5rem 2rem;
+  background: #e3fcba99;
+  border-radius: 1rem;
+  border: none;
+}
+button:hover {
+  background-color: #e3fcba;
+  transition: all 0.7s ease;
+}
+
+article {
+  width: 100%;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  display: grid;
+  gap: 0.5rem 0;
+  background-color: #4a976ee0;
+  border-radius: 1rem;
+  margin: .5rem 0;
+}
+
+article div {
+  display: block;
+  background-color: rgb(12, 45, 16);
+  color: #e3fcba;
+  border-radius: 1rem;
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+}
+
+/* .voorbeeld {
+  text-align: center;
+  margin: 1rem 0;
+  color: #e3fcba;
+  background-color: #4a976ee0;
+
+} */
+
+#image {
+  padding: 1rem;
+}
+
+#img {
+  border-radius: 1rem;
+}
+
+#bericht {
+  padding: 1rem;
+}
