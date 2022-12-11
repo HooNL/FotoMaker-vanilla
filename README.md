@@ -1,0 +1,1 @@
+# FotoMaker-vanilla
