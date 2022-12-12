@@ -3,6 +3,9 @@ const bericht = document.getElementById('bericht')
 function onSubmit(e) {
   e.preventDefault()
 
+  document.querySelector('#msg').textContent = ''
+  document.querySelector('#img').src = ''
+
   const prompt = document.getElementById('prompt').value
   const size = document.getElementById('size').value
 
@@ -44,7 +47,11 @@ async function genereerImageVerzoek(prompt, size) {
     document.querySelector('#img').src = imgURL
 
     removeSpin()
-    document.querySelector('#prompt').value = ''
+
+
+    document.getElementById('prompt').value = ''
+
+
   } catch (error) {
     document.querySelector('#msg').textContent = error
   }
